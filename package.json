@@ -1,7 +1,7 @@
 {
-  "name": "theme-ui",
+  "name": "theme-ui-native",
   "version": "0.2.31",
-  "description": "Build consistent, themeable React UIs based on design system constraints",
+  "description": "Build consistent, themeable React Native UIs based on design system constraints",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "author": "Brent Jackson <jxnblk@gmail.com>",
@@ -13,9 +13,13 @@
   },
   "peerDependencies": {
     "@emotion/core": "^10.0.0",
+    "@emotion/native": "^10.0.0",
     "@mdx-js/react": "^1.0.0"
   },
   "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-react": "^7.7.4",
     "@emotion/is-prop-valid": "^0.8.1",
     "@styled-system/css": "^5.0.16",
     "deepmerge": "^3.2.0",
@@ -23,7 +27,8 @@
   },
   "devDependencies": {
     "@emotion/core": "^10.0.0",
-    "@mdx-js/react": "^1.0.0"
+    "@mdx-js/react": "^1.0.0",
+    "microbundle": "^0.11.0"
   },
   "keywords": [
     "theme-ui",
