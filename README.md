@@ -1,6 +1,10 @@
-### NOTE: 
+### What is this? And the Status? 
 
-This currently doesn't work. 
+STATUS: WIP
+
+This is a fork of theme-ui for React Native. It was stripped out of the main theme-ui monorepo, and I haven't gotten it working yet for yarn/npm installs from Github. However, it's worth noting that I'm using this code over at [hew/bazaar](https://github.com/hew/bazaar). The logic works. The issue here is compilation. I'm open to pull requests.
+
+What follows below is the readme for that project. 
 
 ---
 
